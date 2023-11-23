@@ -9,25 +9,75 @@
 /* Begin PBXBuildFile section */
 		090D94BE2B0D52FB005BBBF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D94BD2B0D52FB005BBBF0 /* AppDelegate.swift */; };
 		090D94C02B0D52FB005BBBF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D94BF2B0D52FB005BBBF0 /* SceneDelegate.swift */; };
-		090D94C22B0D52FB005BBBF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D94C12B0D52FB005BBBF0 /* ViewController.swift */; };
-		090D94C52B0D52FB005BBBF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090D94C32B0D52FB005BBBF0 /* Main.storyboard */; };
+		090D94C22B0D52FB005BBBF0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D94C12B0D52FB005BBBF0 /* MainViewController.swift */; };
 		090D94C72B0D52FE005BBBF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090D94C62B0D52FE005BBBF0 /* Assets.xcassets */; };
 		090D94CA2B0D52FE005BBBF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090D94C82B0D52FE005BBBF0 /* LaunchScreen.storyboard */; };
+		090D94D62B0D58C1005BBBF0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D94D52B0D58C1005BBBF0 /* LogInViewController.swift */; };
+		090D94D82B0D5930005BBBF0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D94D72B0D5930005BBBF0 /* SignUpViewController.swift */; };
+		090D94DA2B0D59BF005BBBF0 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090D94D92B0D59BF005BBBF0 /* ButtonsView.swift */; };
+		09AAF2E02B0E16A0002F2CDA /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AAF2DF2B0E16A0002F2CDA /* SignUpViewModel.swift */; };
+		09AAF2E42B0E45D9002F2CDA /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AAF2E32B0E45D9002F2CDA /* LogInViewModel.swift */; };
+		09AAF2E72B0E4666002F2CDA /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AAF2E62B0E4666002F2CDA /* ValidationManager.swift */; };
+		09AAF2E92B0E6479002F2CDA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09AAF2E82B0E6478002F2CDA /* GoogleService-Info.plist */; };
+		09AAF2F12B0E79B5002F2CDA /* Test_SignUp_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AAF2F02B0E79B5002F2CDA /* Test_SignUp_ViewModel.swift */; };
+		09AAF2F82B0E8509002F2CDA /* Test_LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AAF2F72B0E8509002F2CDA /* Test_LogInViewModel.swift */; };
+		09B1EEAE2B0EF37900502907 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B1EEAD2B0EF37900502907 /* UserModel.swift */; };
+		09B1EEB12B0F021200502907 /* LoginWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B1EEB02B0F021200502907 /* LoginWelcomeViewController.swift */; };
+		09B1EEB52B0F09CF00502907 /* LoginWelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B1EEB42B0F09CF00502907 /* LoginWelcomeViewModel.swift */; };
+		09E6458B2B0EB4B500A2464F /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E6458A2B0EB4B500A2464F /* AuthManager.swift */; };
+		09F6B7622B0EDD14001FB30D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 09F6B7612B0EDD14001FB30D /* FirebaseAuth */; };
+		09F6B7642B0EDD14001FB30D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 09F6B7632B0EDD14001FB30D /* FirebaseDatabase */; };
+		09F6B7662B0EDD14001FB30D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 09F6B7652B0EDD14001FB30D /* FirebaseFirestore */; };
+		09F6B7682B0EDD14001FB30D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 09F6B7672B0EDD14001FB30D /* FirebaseStorage */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09AAF2F22B0E79B5002F2CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 090D94B22B0D52FA005BBBF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 090D94B92B0D52FA005BBBF0;
+			remoteInfo = DigitalGeko;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		090D94BA2B0D52FB005BBBF0 /* DigitalGeko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalGeko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		090D94BD2B0D52FB005BBBF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		090D94BF2B0D52FB005BBBF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		090D94C12B0D52FB005BBBF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		090D94C42B0D52FB005BBBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		090D94C12B0D52FB005BBBF0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		090D94C62B0D52FE005BBBF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		090D94C92B0D52FE005BBBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		090D94CB2B0D52FE005BBBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		090D94D52B0D58C1005BBBF0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		090D94D72B0D5930005BBBF0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		090D94D92B0D59BF005BBBF0 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		09AAF2DF2B0E16A0002F2CDA /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		09AAF2E32B0E45D9002F2CDA /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		09AAF2E62B0E4666002F2CDA /* ValidationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
+		09AAF2E82B0E6478002F2CDA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09AAF2EE2B0E79B5002F2CDA /* DigitalGekoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalGekoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09AAF2F02B0E79B5002F2CDA /* Test_SignUp_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_SignUp_ViewModel.swift; sourceTree = "<group>"; };
+		09AAF2F72B0E8509002F2CDA /* Test_LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_LogInViewModel.swift; sourceTree = "<group>"; };
+		09B1EEAD2B0EF37900502907 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		09B1EEB02B0F021200502907 /* LoginWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWelcomeViewController.swift; sourceTree = "<group>"; };
+		09B1EEB42B0F09CF00502907 /* LoginWelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWelcomeViewModel.swift; sourceTree = "<group>"; };
+		09E6458A2B0EB4B500A2464F /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		090D94B72B0D52FA005BBBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F6B7642B0EDD14001FB30D /* FirebaseDatabase in Frameworks */,
+				09F6B7682B0EDD14001FB30D /* FirebaseStorage in Frameworks */,
+				09F6B7622B0EDD14001FB30D /* FirebaseAuth in Frameworks */,
+				09F6B7662B0EDD14001FB30D /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09AAF2EB2B0E79B4002F2CDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				090D94BC2B0D52FB005BBBF0 /* DigitalGeko */,
+				09AAF2EF2B0E79B5002F2CDA /* DigitalGekoTests */,
 				090D94BB2B0D52FB005BBBF0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				090D94BA2B0D52FB005BBBF0 /* DigitalGeko.app */,
+				09AAF2EE2B0E79B5002F2CDA /* DigitalGekoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +108,138 @@
 		090D94BC2B0D52FB005BBBF0 /* DigitalGeko */ = {
 			isa = PBXGroup;
 			children = (
+				09B1EEAC2B0EF36400502907 /* Model */,
+				09AAF2E52B0E4649002F2CDA /* Manager */,
+				090D94D12B0D5519005BBBF0 /* Moduls */,
 				090D94BD2B0D52FB005BBBF0 /* AppDelegate.swift */,
 				090D94BF2B0D52FB005BBBF0 /* SceneDelegate.swift */,
-				090D94C12B0D52FB005BBBF0 /* ViewController.swift */,
-				090D94C32B0D52FB005BBBF0 /* Main.storyboard */,
 				090D94C62B0D52FE005BBBF0 /* Assets.xcassets */,
 				090D94C82B0D52FE005BBBF0 /* LaunchScreen.storyboard */,
 				090D94CB2B0D52FE005BBBF0 /* Info.plist */,
+				09AAF2E82B0E6478002F2CDA /* GoogleService-Info.plist */,
 			);
 			path = DigitalGeko;
+			sourceTree = "<group>";
+		};
+		090D94D12B0D5519005BBBF0 /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+				090D94D32B0D55AF005BBBF0 /* Log In */,
+				090D94D42B0D5885005BBBF0 /* Sign Up */,
+				090D94D22B0D552E005BBBF0 /* Home */,
+				09B1EEB22B0F09AB00502907 /* Welcome */,
+			);
+			path = Moduls;
+			sourceTree = "<group>";
+		};
+		090D94D22B0D552E005BBBF0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				090D94C12B0D52FB005BBBF0 /* MainViewController.swift */,
+				090D94D92B0D59BF005BBBF0 /* ButtonsView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		090D94D32B0D55AF005BBBF0 /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				09AAF2E12B0E45B0002F2CDA /* ViewModel */,
+				09AAF2E22B0E45BA002F2CDA /* View */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		090D94D42B0D5885005BBBF0 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				09AAF2DE2B0E1684002F2CDA /* ViewModel */,
+				09AAF2DD2B0E1677002F2CDA /* View */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		09AAF2DD2B0E1677002F2CDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				090D94D72B0D5930005BBBF0 /* SignUpViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09AAF2DE2B0E1684002F2CDA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09AAF2DF2B0E16A0002F2CDA /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09AAF2E12B0E45B0002F2CDA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09AAF2E32B0E45D9002F2CDA /* LogInViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09AAF2E22B0E45BA002F2CDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				090D94D52B0D58C1005BBBF0 /* LogInViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09AAF2E52B0E4649002F2CDA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				09AAF2E62B0E4666002F2CDA /* ValidationManager.swift */,
+				09E6458A2B0EB4B500A2464F /* AuthManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		09AAF2EF2B0E79B5002F2CDA /* DigitalGekoTests */ = {
+			isa = PBXGroup;
+			children = (
+				09AAF2F02B0E79B5002F2CDA /* Test_SignUp_ViewModel.swift */,
+				09AAF2F72B0E8509002F2CDA /* Test_LogInViewModel.swift */,
+			);
+			path = DigitalGekoTests;
+			sourceTree = "<group>";
+		};
+		09B1EEAC2B0EF36400502907 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09B1EEAD2B0EF37900502907 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09B1EEB22B0F09AB00502907 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				09B1EEB32B0F09BB00502907 /* ViewModel */,
+				09B1EEB62B0F09DE00502907 /* View */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		09B1EEB32B0F09BB00502907 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				09B1EEB42B0F09CF00502907 /* LoginWelcomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09B1EEB62B0F09DE00502907 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09B1EEB02B0F021200502907 /* LoginWelcomeViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +258,33 @@
 			dependencies = (
 			);
 			name = DigitalGeko;
+			packageProductDependencies = (
+				09F6B7612B0EDD14001FB30D /* FirebaseAuth */,
+				09F6B7632B0EDD14001FB30D /* FirebaseDatabase */,
+				09F6B7652B0EDD14001FB30D /* FirebaseFirestore */,
+				09F6B7672B0EDD14001FB30D /* FirebaseStorage */,
+			);
 			productName = DigitalGeko;
 			productReference = 090D94BA2B0D52FB005BBBF0 /* DigitalGeko.app */;
 			productType = "com.apple.product-type.application";
+		};
+		09AAF2ED2B0E79B4002F2CDA /* DigitalGekoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09AAF2F62B0E79B5002F2CDA /* Build configuration list for PBXNativeTarget "DigitalGekoTests" */;
+			buildPhases = (
+				09AAF2EA2B0E79B4002F2CDA /* Sources */,
+				09AAF2EB2B0E79B4002F2CDA /* Frameworks */,
+				09AAF2EC2B0E79B4002F2CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09AAF2F32B0E79B5002F2CDA /* PBXTargetDependency */,
+			);
+			name = DigitalGekoTests;
+			productName = DigitalGekoTests;
+			productReference = 09AAF2EE2B0E79B5002F2CDA /* DigitalGekoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +299,10 @@
 					090D94B92B0D52FA005BBBF0 = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					09AAF2ED2B0E79B4002F2CDA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 090D94B92B0D52FA005BBBF0;
+					};
 				};
 			};
 			buildConfigurationList = 090D94B52B0D52FA005BBBF0 /* Build configuration list for PBXProject "DigitalGeko" */;
@@ -111,11 +314,15 @@
 				Base,
 			);
 			mainGroup = 090D94B12B0D52FA005BBBF0;
+			packageReferences = (
+				09F6B7602B0EDD14001FB30D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 090D94BB2B0D52FB005BBBF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				090D94B92B0D52FA005BBBF0 /* DigitalGeko */,
+				09AAF2ED2B0E79B4002F2CDA /* DigitalGekoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +334,14 @@
 			files = (
 				090D94CA2B0D52FE005BBBF0 /* LaunchScreen.storyboard in Resources */,
 				090D94C72B0D52FE005BBBF0 /* Assets.xcassets in Resources */,
-				090D94C52B0D52FB005BBBF0 /* Main.storyboard in Resources */,
+				09AAF2E92B0E6479002F2CDA /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09AAF2EC2B0E79B4002F2CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +352,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090D94C22B0D52FB005BBBF0 /* ViewController.swift in Sources */,
+				090D94DA2B0D59BF005BBBF0 /* ButtonsView.swift in Sources */,
+				090D94D62B0D58C1005BBBF0 /* LogInViewController.swift in Sources */,
+				09B1EEB12B0F021200502907 /* LoginWelcomeViewController.swift in Sources */,
+				090D94C22B0D52FB005BBBF0 /* MainViewController.swift in Sources */,
+				09AAF2E72B0E4666002F2CDA /* ValidationManager.swift in Sources */,
 				090D94BE2B0D52FB005BBBF0 /* AppDelegate.swift in Sources */,
+				09B1EEB52B0F09CF00502907 /* LoginWelcomeViewModel.swift in Sources */,
+				09AAF2E42B0E45D9002F2CDA /* LogInViewModel.swift in Sources */,
 				090D94C02B0D52FB005BBBF0 /* SceneDelegate.swift in Sources */,
+				090D94D82B0D5930005BBBF0 /* SignUpViewController.swift in Sources */,
+				09AAF2E02B0E16A0002F2CDA /* SignUpViewModel.swift in Sources */,
+				09E6458B2B0EB4B500A2464F /* AuthManager.swift in Sources */,
+				09B1EEAE2B0EF37900502907 /* UserModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09AAF2EA2B0E79B4002F2CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AAF2F82B0E8509002F2CDA /* Test_LogInViewModel.swift in Sources */,
+				09AAF2F12B0E79B5002F2CDA /* Test_SignUp_ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		090D94C32B0D52FB005BBBF0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				090D94C42B0D52FB005BBBF0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		09AAF2F32B0E79B5002F2CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 090D94B92B0D52FA005BBBF0 /* DigitalGeko */;
+			targetProxy = 09AAF2F22B0E79B5002F2CDA /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		090D94C82B0D52FE005BBBF0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,11 +523,11 @@
 				DEVELOPMENT_TEAM = 5WR73Q6863;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigitalGeko/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Digital Geko";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +551,11 @@
 				DEVELOPMENT_TEAM = 5WR73Q6863;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigitalGeko/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Digital Geko";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +566,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09AAF2F42B0E79B5002F2CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WR73Q6863;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriancysvillegas.DigitalGekoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalGeko.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigitalGeko";
+			};
+			name = Debug;
+		};
+		09AAF2F52B0E79B5002F2CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WR73Q6863;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adriancysvillegas.DigitalGekoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalGeko.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigitalGeko";
 			};
 			name = Release;
 		};
@@ -357,7 +626,50 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		09AAF2F62B0E79B5002F2CDA /* Build configuration list for PBXNativeTarget "DigitalGekoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09AAF2F42B0E79B5002F2CDA /* Debug */,
+				09AAF2F52B0E79B5002F2CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09F6B7602B0EDD14001FB30D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09F6B7612B0EDD14001FB30D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09F6B7602B0EDD14001FB30D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		09F6B7632B0EDD14001FB30D /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09F6B7602B0EDD14001FB30D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		09F6B7652B0EDD14001FB30D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09F6B7602B0EDD14001FB30D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		09F6B7672B0EDD14001FB30D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09F6B7602B0EDD14001FB30D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 090D94B22B0D52FA005BBBF0 /* Project object */;
 }
